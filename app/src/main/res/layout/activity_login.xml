@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginRight="-15dp">
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="186dp"
+            android:layout_marginTop="80dp"
+
+            app:srcCompat="@drawable/icon" />
+
+        <EditText
+            android:id="@+id/myuser"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="137dp"
+            android:layout_marginRight="137dp"
+            android:layout_marginBottom="295dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:ems="10"
+            android:hint="     Enter Username"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mypass"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="138dp"
+            android:layout_marginRight="138dp"
+            android:layout_marginBottom="212dp"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:ems="10"
+            android:hint="     Enter Password"
+            android:inputType="textPassword"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="131dp"
+            android:layout_marginRight="131dp"
+            android:layout_marginBottom="114dp"
+            android:background="@drawable/buttonstyle"
+            android:onClick="clickToContinue"
+            android:text="Login"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

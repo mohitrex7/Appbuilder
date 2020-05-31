@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:checkableBehavior="single"
+    >
+    <item
+        android:id="@+id/viewgallery"
+        android:icon="@drawable/ic_photo_black_24dp"
+        android:title="View Gallery"/>
+    <item
+        android:id="@+id/ourlocation"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="Our Loaction"/>
+    <item
+        android:id="@+id/testimonial"
+        android:icon="@drawable/ic_speaker_notes_black_24dp"
+        android:title="Testimonials"/>
+    <item
+        android:id="@+id/contactus"
+        android:icon="@drawable/ic_contacts_black_24dp"
+        android:title="Contact Us"/>
+</group>
+    <item
+        android:id="@+id/nav_social"
+        android:title="Social">
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                android:id="@+id/group_social">
+                <item
+                    android:id="@+id/facebook"
+                    android:title="Facebook"/>
+            <item
+                android:id="@+id/twitter"
+                android:title="Twitter"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
